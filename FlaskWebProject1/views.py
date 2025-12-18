@@ -37,7 +37,7 @@ def about():
     )
 
 
-@app.route('/muhabbat')
+@app.route('/final')
 def muhabbat():
     """Renders the muhabbat page."""
     return render_template(
